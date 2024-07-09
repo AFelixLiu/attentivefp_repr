@@ -1,0 +1,123 @@
+#!/usr/bin/env bash
+set -ex
+
+trap 'shutdown -h now' EXIT
+
+jupyter nbconvert \
+  --ExecutePreprocessor.allow_errors=True \
+  --ExecutePreprocessor.timeout=-1 \
+  --FilesWriter.build_directory=../results \
+  --execute ./1_POC_test_Solubility.ipynb \
+  --to notebook
+
+jupyter nbconvert \
+  --ExecutePreprocessor.allow_errors=True \
+  --ExecutePreprocessor.timeout=-1 \
+  --FilesWriter.build_directory=../results \
+  --execute ./1_POC_test_Malaria_Bioactivity.ipynb \
+  --to notebook
+
+jupyter nbconvert \
+  --ExecutePreprocessor.allow_errors=True \
+  --ExecutePreprocessor.timeout=-1 \
+  --FilesWriter.build_directory=../results \
+  --execute ./1_POC_test_Photovoltaic_efficiency.ipynb \
+  --to notebook
+
+jupyter nbconvert \
+  --ExecutePreprocessor.allow_errors=True \
+  --ExecutePreprocessor.timeout=-1 \
+  --FilesWriter.build_directory=../results \
+  --execute ./2_Physical_Chemistry_ESOL.ipynb \
+  --to notebook
+
+jupyter nbconvert \
+  --ExecutePreprocessor.allow_errors=True \
+  --ExecutePreprocessor.timeout=-1 \
+  --FilesWriter.build_directory=../results \
+  --execute ./2_Physical_Chemistry_FreeSolv.ipynb \
+  --to notebook
+
+jupyter nbconvert \
+  --ExecutePreprocessor.allow_errors=True \
+  --ExecutePreprocessor.timeout=-1 \
+  --FilesWriter.build_directory=../results \
+  --execute ./2_Physical_Chemistry_Lipop.ipynb \
+  --to notebook
+
+jupyter nbconvert \
+  --ExecutePreprocessor.allow_errors=True \
+  --ExecutePreprocessor.timeout=-1 \
+  --FilesWriter.build_directory=../results \
+  --execute ./2_Bioactivity_MUV.ipynb \
+  --to notebook
+
+jupyter nbconvert \
+  --ExecutePreprocessor.allow_errors=True \
+  --ExecutePreprocessor.timeout=-1 \
+  --FilesWriter.build_directory=../results \
+  --execute ./2_Bioactivity_HIV.ipynb \
+  --to notebook
+
+jupyter nbconvert \
+  --ExecutePreprocessor.allow_errors=True \
+  --ExecutePreprocessor.timeout=-1 \
+  --FilesWriter.build_directory=../results \
+  --execute ./2_Bioactivity_BACE.ipynb \
+  --to notebook
+
+jupyter nbconvert \
+  --ExecutePreprocessor.allow_errors=True \
+  --ExecutePreprocessor.timeout=-1 \
+  --FilesWriter.build_directory=../results \
+  --execute ./2_Physiology_or_Toxicity_BBBP.ipynb \
+  --to notebook
+
+jupyter nbconvert \
+  --ExecutePreprocessor.allow_errors=True \
+  --ExecutePreprocessor.timeout=-1 \
+  --FilesWriter.build_directory=../results \
+  --execute ./2_Physiology_or_Toxicity_Tox21.ipynb \
+  --to notebook
+
+jupyter nbconvert \
+  --ExecutePreprocessor.allow_errors=True \
+  --ExecutePreprocessor.timeout=-1 \
+  --FilesWriter.build_directory=../results \
+  --execute ./2_Physiology_or_Toxicity_ToxCast.ipynb \
+  --to notebook
+
+jupyter nbconvert \
+  --ExecutePreprocessor.allow_errors=True \
+  --ExecutePreprocessor.timeout=-1 \
+  --FilesWriter.build_directory=../results \
+  --execute ./2_Physiology_or_Toxicity_SIDER.ipynb \
+  --to notebook
+
+jupyter nbconvert \
+  --ExecutePreprocessor.allow_errors=True \
+  --ExecutePreprocessor.timeout=-1 \
+  --FilesWriter.build_directory=../results \
+  --execute ./2_Physiology_or_Toxicity_ClinTox.ipynb \
+  --to notebook
+
+jupyter nbconvert \
+  --ExecutePreprocessor.allow_errors=True \
+  --ExecutePreprocessor.timeout=-1 \
+  --FilesWriter.build_directory=../results \
+  --execute ./3_qm9.ipynb \
+  --to notebook
+
+jupyter nbconvert \
+  --ExecutePreprocessor.allow_errors=True \
+  --ExecutePreprocessor.timeout=-1 \
+  --FilesWriter.build_directory=../results \
+  --execute ./Feature_visualization_of_Learning_hidden_environment_and_water_solubility.ipynb \
+  --to notebook
+
+jupyter nbconvert \
+  --ExecutePreprocessor.allow_errors=True \
+  --ExecutePreprocessor.timeout=-1 \
+  --FilesWriter.build_directory=../results \
+  --execute ./Feature_visualization_of_Learning_aromaticity.ipynb \
+  --to notebook
