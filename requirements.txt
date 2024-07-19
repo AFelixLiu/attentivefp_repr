@@ -1,56 +1,18 @@
-backcall @ file:///home/ktietz/src/ci/backcall_1611930011877/work
-certifi @ file:///croot/certifi_1671487769961/work/certifi
-cffi @ file:///croot/cffi_1670423208954/work
-cycler @ file:///tmp/build/80754af9/cycler_1637851556182/work
-debugpy @ file:///tmp/build/80754af9/debugpy_1637091426235/work
-decorator @ file:///opt/conda/conda-bld/decorator_1643638310831/work
-entrypoints @ file:///tmp/build/80754af9/entrypoints_1649908585034/work
-fonttools==4.25.0
-ipykernel @ file:///opt/conda/conda-bld/ipykernel_1662361798230/work
-ipython @ file:///tmp/abs_94gruux8u8/croots/recipe/ipython_1659529858706/work
-jedi @ file:///tmp/build/80754af9/jedi_1644299024593/work
-joblib @ file:///croot/joblib_1666298844297/work
-jupyter_client @ file:///croot/jupyter_client_1676329080601/work
-jupyter_core @ file:///croot/jupyter_core_1668084443243/work
-kiwisolver @ file:///croot/kiwisolver_1672387140495/work
-matplotlib @ file:///croot/matplotlib-suite_1667356714455/work
-matplotlib-inline @ file:///opt/conda/conda-bld/matplotlib-inline_1662014470464/work
-mkl-fft==1.3.0
-mkl-random==1.1.1
-mkl-service==2.3.0
-munkres==1.1.4
-nest-asyncio @ file:///croot/nest-asyncio_1672387112409/work
-numpy @ file:///tmp/build/80754af9/numpy_and_numpy_base_1603479632437/work
-packaging @ file:///croot/packaging_1671697413597/work
+cudatoolkit==10.0.130
+cudnn==7.6.5
+ipykernel
+jupyter_client==7.4.9
+jupyter_core==4.11.2
+matplotlib==3.5.3
+numpy==1.19.2
 pandas==1.2.4
-parso @ file:///opt/conda/conda-bld/parso_1641458642106/work
-pexpect @ file:///tmp/build/80754af9/pexpect_1605563209008/work
-pickleshare @ file:///tmp/build/80754af9/pickleshare_1606932040724/work
-Pillow==9.4.0
-ply==3.11
-prompt-toolkit @ file:///croot/prompt-toolkit_1672387306916/work
-protobuf==3.20.3
-psutil @ file:///opt/conda/conda-bld/psutil_1656431268089/work
-ptyprocess @ file:///tmp/build/80754af9/ptyprocess_1609355006118/work/dist/ptyprocess-0.7.0-py2.py3-none-any.whl
-pycairo==1.21.0
-pycparser @ file:///tmp/build/80754af9/pycparser_1636541352034/work
-Pygments @ file:///opt/conda/conda-bld/pygments_1644249106324/work
-pyparsing @ file:///opt/conda/conda-bld/pyparsing_1661452539315/work
-PyQt5-sip==12.11.0
-python-dateutil @ file:///tmp/build/80754af9/python-dateutil_1626374649649/work
-pytz @ file:///croot/pytz_1671697431263/work
-pyzmq @ file:///opt/conda/conda-bld/pyzmq_1657724186960/work
-scikit-learn @ file:///tmp/build/80754af9/scikit-learn_1642601761909/work
-scipy @ file:///tmp/build/80754af9/scipy_1616700973326/work
-seaborn @ file:///croot/seaborn_1673479180098/work
-sip @ file:///tmp/abs_44cd77b_pu/croots/recipe/sip_1659012365470/work
-six @ file:///tmp/build/80754af9/six_1644875935023/work
-tensorboardX @ file:///tmp/build/80754af9/tensorboardx_1621440489103/work
-threadpoolctl @ file:///Users/ktietz/demo/mc3/conda-bld/threadpoolctl_1629802263681/work
-toml @ file:///tmp/build/80754af9/toml_1616166611790/work
+pyqt5-sip==12.11.0
+python==3.7.16
+pytorch==1.3.1
+rdkit==2019.09.3
+scikit-learn==1.0.2
+scipy==1.6.2
+seaborn==0.12.2
+tensorboardx==2.2
 torch==1.3.1
 torchvision==0.2.1
-tornado @ file:///opt/conda/conda-bld/tornado_1662061693373/work
-traitlets @ file:///croot/traitlets_1671143879854/work
-typing_extensions @ file:///tmp/abs_ben9emwtky/croots/recipe/typing_extensions_1659638822008/work
-wcwidth @ file:///Users/ktietz/demo/mc3/conda-bld/wcwidth_1629357192024/work
